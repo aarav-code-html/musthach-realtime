@@ -1,0 +1,25 @@
+.button{
+    background-color: aqua;
+    box-shadow: 18 18;
+    font-size: large;
+    border-radius: 5px;
+   color: rgb(1, 1,1);
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color:  white;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(0, 195, 255);}
+    to{box-shadow: 1px 1px 38px rgb(81, 255, 0);}
+}
+.h3{
+    background-color: crimson;
+     border-radius: 10px;
+      width: 50%; 
+      font-size: 30px;
+       font-weight: bold;
+       color: white;
+}
